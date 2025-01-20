@@ -1,1 +1,4 @@
-
+A UNet architecture was constructed to facilitate an objective comparison of the effectiveness and applicability of the proposed and existing modules for low-level vision tasks.
+The overall network was comprised of an encoder and decoder. A jump connection operation was added between the interrelated layers to preserve and recover the image details.
+Based on experience and the experimental settings of existing low-level vision tasks, the encoder and decoder networks had four stages, each of which retained multiple base modules. Downsampling operations were implemented after the first three stages, and the decoder structure mirrored the upsampling operations.
+The principal parameter configurations for each comparison module are provided in the Table, with consistent settings prioritized for identical hyperparameters.
